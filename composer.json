@@ -1,0 +1,17 @@
+{
+    "name": "dezsidog/baidu-bos",
+    "description": "this is package for baidu-bos official sdk v0.8.24",
+    "type": "library",
+    "license": "Apache 2.0",
+    "require": {
+        "monolog/monolog": "^1.23",
+        "symfony/event-dispatcher": "2.8",
+        "guzzle/guzzle": "^3.9",
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaiduBce\\": "src/"
+        }
+    }
+}
