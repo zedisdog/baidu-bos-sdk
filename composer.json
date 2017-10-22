@@ -1,5 +1,5 @@
 {
-    "name": "dezsidog/baidu-bos",
+    "name": "dezsidog/baidu-bos-sdk",
     "description": "this is package for baidu-bos official sdk v0.8.24",
     "type": "library",
     "license": "Apache 2.0",
