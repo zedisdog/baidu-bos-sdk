@@ -88,9 +88,7 @@ class BosClientTest extends \PHPUnit\Framework\TestCase
     //test of bucket create/doesExist/list/delete operations
     public function testBucketOperations()
     {
-        //todo: 有问题
-        $this->markTestSkipped('测试好像没有写对又可能是权限问题');
-        $bucketName = "test-bucket-operations";
+        $bucketName = "test-bucket-operations".rand(100000,999999);
         //not created, should be false
         $exist = $this->client->doesBucketExist($bucketName);
         $this->assertFalse($exist);
